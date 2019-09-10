@@ -93,10 +93,10 @@ content:
       link_to_entity: false
     third_party_settings: {  }
   field_gemini_uri:
-    weight: 15
-    region: content
+    weight: 100
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_identifier:
     type: string
     weight: 1
