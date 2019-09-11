@@ -24,13 +24,6 @@ conditions:
     uri: 'https://schema.org/DigitalDocument'
     context_mapping:
       media: '@islandora.media_route_context_provider:media'
-  media_has_mimetype:
-    id: media_has_mimetype
-    mimetypes: application/pdf
-    negate: 0
-    uuid: 471cb919-778f-40ce-abff-85653d61d33c
-    context_mapping:
-      node: '@node.node_route_context:node'
 reactions:
   derivative:
     id: derivative

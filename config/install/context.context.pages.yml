@@ -24,13 +24,6 @@ conditions:
     uri: 'http://pcdm.org/use#OriginalFile'
     context_mapping:
       media: '@islandora.media_route_context_provider:media'
-  media_has_mimetype:
-    id: media_has_mimetype
-    mimetypes: 'image/tiff,image/jpeg'
-    negate: 0
-    uuid: bd8f5bc0-84c9-483f-96a3-2df88f9c1ddc
-    context_mapping:
-      node: '@node.node_route_context:node'
 reactions:
   derivative:
     id: derivative
