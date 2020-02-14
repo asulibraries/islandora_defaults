@@ -6,6 +6,7 @@ dependencies:
       - islandora_defaults
   module:
     - islandora
+    - node
 name: collection
 label: Collection
 group: Display
@@ -19,6 +20,14 @@ conditions:
     context_mapping:
       node: '@node.node_route_context:node'
     uri: 'http://purl.org/dc/dcmitype/Collection'
+    logic: and
+  node_type:
+    id: node_type
+    bundles:
+      collection: collection
+    negate: 0
+    context_mapping:
+      node: '@node.node_route_context:node'
 reactions:
   blocks:
     blocks:
