@@ -10,8 +10,14 @@
   "support": {
     "issues": "https://github.com/Islandora/documentation/issues"
   },
+  "repositories": [
+	{
+		"type": "vcs",
+		"url": "https://github.com/asulibraries/islandora.git"
+	}
+  ],
   "require": {
-    "islandora/islandora": "dev-8.x-1.x",
+    "islandora/islandora": "dev-d9_islandora_crayfish",
     "islandora/openseadragon" : "dev-8.x-1.x",
     "islandora/controlled_access_terms" : "dev-8.x-1.x",
     "drupal/field_group" : "^3.0",
